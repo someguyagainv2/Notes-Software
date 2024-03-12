@@ -27,4 +27,4 @@ Software production started to clarify the Github was not made at this concurren
 I began to work on was thelogin page keeping an ease colour on the person's eye's so I targeted colour
 scheme of grey to dark-grey, lighter grey for fore-colour and dark-grey for background-colours.
 ```
-<img src=/images/login_1.PNG
+<img src=/images/login_1.PNG>

@@ -110,6 +110,9 @@ elements to match the background after this I had panel fully set which I would 
 <img src="/images/Events_Tab.PNG">
 
 ```
+12/03/2024 21:25 BST
+Event Viewing
+
 By double clicking one of event's textboxes which is next to description e.g MouseUp to the left
 there is blank box if you double click in that location it will then make function for you and send
 you to the code

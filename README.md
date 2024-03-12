@@ -22,7 +22,7 @@ I made this repo and this software to show proof of knowledge and where motivati
 <b> Started on 12/03/2024 </b>
 
 -- 
-
+**NOTE**
 Software production started to clarify the Github was not made at this concurrent time the first thing I began to work on was the login page keeping an ease colour on the person's eye's so I targeted colour scheme of grey to dark-grey, lighter grey for fore-colour and dark-grey for background-colours.
 
 --

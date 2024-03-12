@@ -23,6 +23,8 @@ I made this repo and this software to show proof of knowledge and where motivati
 
 ```
 12/03/2024 15:59 BST
+
+
 Software production started to clarify the Github was not made at this concurrent time the first thing
 I began to work on was thelogin page keeping an ease colour on the person's eye's so I targeted colour
 scheme of grey to dark-grey, lighter grey for fore-colour and dark-grey for background-colours.
@@ -31,6 +33,7 @@ scheme of grey to dark-grey, lighter grey for fore-colour and dark-grey for back
 
 ```
 12/03/2024 16:07 BST
+Font Changing
 I began to realize that some font's just didn't match with the theme I was going for I wanted more sharper
 and not distorted font this could be just me but I just felt like it didn't match my current theme I was
 going for.
@@ -40,4 +43,9 @@ look out of place this was quite an issue to deal with. I came to the conclusion
 increased the font sizes on some objects this was because their current size didn't fit to well in
 addition to this I changed the font's format from bold back to regular as that caused some not good
 formatting what I didn't expect would make a major change.
+```
+
+```
+12/03/2024 16:07 BST
+
 ```

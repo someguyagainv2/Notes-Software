@@ -34,4 +34,10 @@ scheme of grey to dark-grey, lighter grey for fore-colour and dark-grey for back
 I began to realize that some font's just didn't match with the theme I was going for I wanted more sharper
 and not distorted font this could be just me but I just felt like it didn't match my current theme I was
 going for.
+
+To take action on this issue I started browsing font's which appealed more easily and which one's didn't
+look out of place this was quite an issue to deal with. I came to the conclusion of Yu Gothic UI also I
+increased the font sizes on some objects this was because their current size didn't fit to well in
+addition to this I changed the font's format from bold back to regular as that caused some not good
+formatting what I didn't expect would make a major change.
 ```

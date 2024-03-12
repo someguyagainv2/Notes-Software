@@ -23,7 +23,7 @@ I made this repo and this software to show proof of knowledge and where motivati
 
 ```
 12/03/2024 15:59 BST
-
+Introduction
 
 Software production started to clarify the Github was not made at this concurrent time the first thing
 I began to work on was thelogin page keeping an ease colour on the person's eye's so I targeted colour
@@ -34,6 +34,7 @@ scheme of grey to dark-grey, lighter grey for fore-colour and dark-grey for back
 ```
 12/03/2024 16:07 BST
 Font Changing
+
 I began to realize that some font's just didn't match with the theme I was going for I wanted more sharper
 and not distorted font this could be just me but I just felt like it didn't match my current theme I was
 going for.
@@ -47,5 +48,17 @@ formatting what I didn't expect would make a major change.
 
 ```
 12/03/2024 16:07 BST
+Problem solving
 
+There's 2 main things of U.I what needs main attention one of those is the login button and the
+forgot password button. Breaking this down into sub problems brings us to being able to find services
+what allow us to send short codes to verify this is them we can use service such as infobip.com to
+send small phone texts or phone calls to send a code through to the individual if they have there
+phone number verified.
+
+2nd the login button can be tackled by using sql what's a C# module we can use to connect the server
+up to our code this is very documented in
+https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-dotnet-core?view=azuresql
+That provides how to set up connection paramaters and other essential information we need, we can
+configure this at the start of the applications boot.
 ```

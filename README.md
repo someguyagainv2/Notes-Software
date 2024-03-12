@@ -108,3 +108,9 @@ application I put a panel which was made to go to back and set it's colour to be
 elements to match the background after this I had panel fully set which I would use for my events.
 ```
 <img src="/images/Events_Tab.PNG">
+
+```
+By double clicking one of event's textboxes which is next to description e.g MouseUp to the left
+there is blank box if you double click in that location it will then make function for you and send
+you to the code
+```

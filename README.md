@@ -117,3 +117,14 @@ By double clicking one of event's textboxes which is next to description e.g Mou
 there is blank box if you double click in that location it will then make function for you and send
 you to the code
 ```
+
+```
+12/03/2024 21:55 BST
+The Next Window
+
+As we want a multi form application which let's us navigate onto seperate windows and so on there's
+a tab at the top of visual studio called "Project" if you click project you'll see some options
+you want to press Add Form this will make a new window for my application. This will then open new tab
+I'll just load the old exit button and minimize button to save time and effort. I did this by basic
+Ctrl + C.
+```

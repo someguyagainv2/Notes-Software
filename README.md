@@ -107,3 +107,4 @@ the name drag is, the panel's name which I allocated at the top of application, 
 application I put a panel which was made to go to back and set it's colour to be same as other
 elements to match the background after this I had panel fully set which I would use for my events.
 ```
+<img src="/images/Events_Tab.PNG">

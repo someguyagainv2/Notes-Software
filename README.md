@@ -167,3 +167,15 @@ Create A Note button is something we'll solve later on but for now I'm going to 
 and work on the login system and make the code for this login system while also checking for
 SQL Injections when sending these queries.
 ```
+
+```
+13/03/2024 15:50 BST
+Programming #2
+
+To program login button we need to first setup SQL Server to do this I did some research and found
+Microsoft.Data.SqlClient initilially I tried to dotnet add package to install this but as I was using
+Visual Studio 2022 this didn't work however after looking around on the project section of visual studio
+their is "Manage NuGet Packages" On here I just opened it and searched for the package and found it on there
+I installed the package to then continue on and insert this into my code.
+
+

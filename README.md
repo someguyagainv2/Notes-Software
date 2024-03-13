@@ -18,7 +18,7 @@ I made this repo and this software to show proof of knowledge and where motivati
 </ul>
 
 <h1> Specifications </h1>
-Server Hoster: Planetscale
+Server Hoster: Planetscale <br>
 Database Type: SQL
 
 <h1> Timeline </h1>

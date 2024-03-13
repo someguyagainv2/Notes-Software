@@ -169,7 +169,7 @@ SQL Injections when sending these queries.
 ```
 
 ```
-13/03/2024 15:50 BST
+13/03/2024 17:15 BST
 Programming #2
 
 To program login button we need to first setup SQL Server to do this I did some research and found
@@ -178,4 +178,6 @@ Visual Studio 2022 this didn't work however after looking around on the project 
 their is "Manage NuGet Packages" On here I just opened it and searched for the package and found it on there
 I installed the package to then continue on and insert this into my code.
 
-
+The code wasn't appearing to be working I was using the SqlConnectionStringBuilder to make connection
+string using information I provided but when I went to connect it wasn't working so I'm take a break to
+take a seperate approach to the situation at hand and think it out.```

@@ -229,4 +229,6 @@ user inside. The reason I get 1 here is because first column was a ID column whi
 was integers which caused an error. Now I just had to check for sql Injections and make condition
 using If statement. Using the information and testing I got I was able to make it succesfully swap
 windows if the correct username and password was entered! 22:07 BST.
+
+Break Time
 ```

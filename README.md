@@ -230,4 +230,6 @@ was integers which caused an error. Now I just had to check for sql Injections a
 using If statement. Using the information and testing I got I was able to make it succesfully swap
 windows if the correct username and password was entered! 22:07 BST.
 ```
-<img src="/images/2024-03-13 22-12-33.mp4">
+<video "width=720" height="720" controls>
+  <source src="images/2024-03-13 22-12-33.mp4" type="video/mp4">
+</video>

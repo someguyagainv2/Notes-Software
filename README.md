@@ -162,4 +162,8 @@ using show function the code went like this.
 this.Hide();
 Login frm = new Login();
 frm.Show()
+
+Create A Note button is something we'll solve later on but for now I'm going to go back to login form
+and work on the login system and make the code for this login system while also checking for
+SQL Injections when sending these queries.
 ```

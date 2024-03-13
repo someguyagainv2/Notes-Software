@@ -128,3 +128,15 @@ you want to press Add Form this will make a new window for my application. This 
 I'll just load the old exit button and minimize button to save time and effort. I did this by basic
 Ctrl + C.
 ```
+
+```
+13/03/2024 14:47 BST
+Interface
+
+For my 2nd window being the main window once you're logged in I wanted to make it have nice easy
+to navigate interface on the main interface I wanted a phew options in this case I wanted
+Log out, create a note, delete a note, GitHub, Settings.
+
+The base foundation of this ended like this
+```
+<img src="/images/main.PNG">

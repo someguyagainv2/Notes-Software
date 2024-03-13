@@ -17,6 +17,10 @@ I made this repo and this software to show proof of knowledge and where motivati
   <li>Motivation</li>
 </ul>
 
+<h1> Specifications </h1>
+Server Hoster: Planetscale
+Database Type: SQL
+
 <h1> Timeline </h1>
 
 <b> Started on 12/03/2024 </b>

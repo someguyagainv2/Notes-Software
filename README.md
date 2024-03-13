@@ -130,7 +130,7 @@ Ctrl + C.
 ```
 
 ```
-13/03/2024 14:47 BST
+13/03/2024 15:10 BST
 Interface
 
 For my 2nd window being the main window once you're logged in I wanted to make it have nice easy
@@ -140,3 +140,26 @@ Log out, create a note, delete a note, GitHub, Settings.
 The base foundation of this ended like this
 ```
 <img src="/images/main.PNG">
+
+```
+13/03/2024 15:19 BST
+Problem Solving
+
+There's phew things what need handling the GitHub Button, settings, create a note etc.
+Starting off with GitHub button after some research and seeing what ways there was to open
+a browser at the url I came to conclusion the namespace I'd use is System.Diagnostics.Process
+This contains a function to start which will open web browser to url we provide.
+
+Adding this to the button click was pretty straight forward just a simple 
+Process.Start("https://GitHub.com/MalakiaDaley");
+I defined at the start of the code using System.Diagnostics; so it knew where I was referencing from
+After a quick test everything was working fine with GitHub Button.
+
+Log Out was pretty straight forward of changing window back to login window to then let them
+to sign into their seperate account we can do this by providing the Form Name a variable and then
+using show function the code went like this.
+
+this.Hide();
+Login frm = new Login();
+frm.Show()
+```

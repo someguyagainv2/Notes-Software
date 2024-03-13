@@ -181,3 +181,48 @@ I installed the package to then continue on and insert this into my code.
 The code wasn't appearing to be working I was using the SqlConnectionStringBuilder to make connection
 string using information I provided but when I went to connect it wasn't working so I'm take a break to
 take a seperate approach to the situation at hand and think it out.```
+
+```
+```
+13/03/2024 20:38 BST
+Break Over Back To Programming
+
+After numerous debugging I started researching and debugging at 20:38 it's now 21:30 after lots of digging
+I changed from previous namespace to MySql.Data.MySqlClient; this allowed me to connect pretty quickly
+after configuring my connection string the only hassle was reading through documentation on how it
+works but after some messing I'm able to return returns and understand how result returning works.
+
+After realization I noticed we have to use while loop when going through the reader correct me if I'm
+wrong but that's intepretation it gives me as of right now. I need to format this into list so then
+I can check if the list is empty using key paramater known as "any" this returns a boolean if list is empty
+or not empty.
+
+Now what was left was getting username and password textbox and checking it in a sql query.
+
+string username = UsernameBox.Text;
+string password = PasswordBox.Text;
+
+Console.WriteLine($"{username} {password}");
+
+MySqlConnection conn = new MySqlConnection(connStr);
+conn.Open();
+
+string sql = $"SELECT * FROM NoteSoftware where username='{username}' AND password='{password}';";
+
+MySqlCommand checkForInfo = new MySqlCommand(sql, conn);
+MySqlDataReader reader = checkForInfo.ExecuteReader();
+List<string> data = new List<string>();
+
+while (reader.Read())
+{
+    data.Add(reader.GetString(1));
+}
+Console.WriteLine($"{data.Any()}");
+conn.Close();
+
+this was code I made to check it and debug if it returned true that meant it had
+user inside. The reason I get 1 here is because first column was a ID column which
+was integers which caused an error. Now I just had to check for sql Injections and make condition
+using If statement. Using the information and testing I got I was able to make it succesfully swap
+windows if the correct username and password was entered! 22:07 BST.
+```

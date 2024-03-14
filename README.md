@@ -343,3 +343,13 @@ I need to clone the elements once the SQL data retrieved and parase out a small 
 My plan is when cloning notes through the database, I should name the main element after the ID of the note this makes when you
 click on it we can instantly query this information using that ID attached that's my plan as of right now.
 ```
+
+```
+14/03/2024 19:33 BST
+T.H.E E.R.R.O.R
+
+I wanted to try simplify my ways of thinking, I thought using a user control would been too complex and cloning panel would been
+easier, wasn't I wrong after 30minute deep scroll researching I came to the conclusion that I made a severe blunder when
+I tried to take "simplicity" over actual way, I've learnt my lesson from this and now I shall design user control.
+
+```

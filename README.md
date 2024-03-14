@@ -509,12 +509,26 @@ Settings, Forgot Password
   </tr>
   <tr>
     <td>Log In Button</td>
+  </tr>
+  <tr>
     <td>Create A Note</td>
+  </tr>
+  <tr>
     <td>Drag UI</td>
+  </tr>
+  <tr>
     <td>Delete A Note</td>
+  </tr>
+  <tr>
     <td>Edit Note</td>
+  </tr>
+  <tr>
     <td>Refresh</td>
+  </tr>
+  <tr>
     <td>Log Out</td>
+  </tr>
+  <tr>
     <td>GitHub</td>
   </tr>
   <tr>

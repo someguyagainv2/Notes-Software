@@ -331,3 +331,15 @@ SQL Injection
 
 After this I did add quick SQL Injection detector to stop altering of tables etc which just checks over the content they provide.
 ```
+
+```
+14/03/2024 18:53 BST
+Loading Notes
+
+Now I want to display the notes onto the main frame, display the notes they have previously made which can be opened and edited
+and deleted. With this I will need to research what type of panel to use as I will also need scrollbar in addition to this.
+I need to clone the elements once the SQL data retrieved and parase out a small previous. While also giving them set identifier.
+
+My plan is when cloning notes through the database, I should name the main element after the ID of the note this makes when you
+click on it we can instantly query this information using that ID attached that's my plan as of right now.
+```

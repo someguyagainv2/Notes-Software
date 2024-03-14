@@ -303,4 +303,19 @@ PRIMARY KEY (id)
 );
 ```
 
+```
+14/03/2024 17:19 BST
+Global Variables
 
+There's one key thing we need for the note's software and that's to setup a global variable so we can store the ID of
+the currently logged in person so when note is created we can just reference this said ID. The way I handled this was by
+
+public static class Globals
+{
+    public static int ownerId;
+}
+
+The code for the exit button which saves Note
+```
+
+<img src="images/noteSave.PNG">

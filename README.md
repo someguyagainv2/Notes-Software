@@ -321,7 +321,13 @@ The code for the exit button which saves Note
 <img src="images/noteSave.PNG">
 
 ```
-
 The database result:
 ```
 <img src="images/noteDatabase.PNG">
+
+```
+14/03/2024 17:28 BST
+SQL Injection
+
+After this I did add quick SQL Injection detector to stop altering of tables etc which just checks over the content they provide.
+```

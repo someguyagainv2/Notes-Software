@@ -252,3 +252,24 @@ was programming the notes to save etc. And then I came to conclusion my old way 
 probably wouldn't work on my database below is attachment of the database.
 ```
 <img src="images/Database1.PNG">
+
+```
+14/03/2024 15:40 BST
+Problem Solving
+
+The database issue I have to break down into phew fundemental aspects being able to edit a note,
+delete a note and create meaning, I will need a unique identifier for the note's meaning I will
+need a seperate table which has primary key known as NoteID which will also contain the Note
+I'm contemplating adding a Note Title but I'm unsure.
+
+The SQL Query For The Table
+
+create table Notes(
+id INT NOT NULL AUTO_INCREMENT,
+NoteTitle text,
+Note longtext,
+PRIMARY KEY (id)
+);
+
+I added the NoteTitle just incase I do add in later on.
+```

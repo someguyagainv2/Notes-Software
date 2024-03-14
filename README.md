@@ -504,34 +504,48 @@ Settings, Forgot Password
 <table>
   <tr>
     <th> Test </th>
-    <th> Result </th>
     <th> Expected Result </th>
+    <th> Result </th>
   </tr>
   <tr>
     <td>Log In Button</td>
+    <td>Depending if credential is correct will make new U.I appear</td>
+    <td>Succesful if login is correct main U.I Opens</td>
   </tr>
   <tr>
     <td>Create A Note</td>
+    <td>Open U.I let's you insert text then saves to a database</td>
+    <td>Succesfully opens U.I and let's user insert text and saves to a database</td>
   </tr>
   <tr>
     <td>Drag UI</td>
+    <td>Click top of frame should drag</td>
+    <td>Succesful clicking top of frame will drag the whole form</td>
   </tr>
   <tr>
     <td>Delete A Note</td>
+    <td>Click a note and will delete from database and from notes</td>
+    <td>Unsuccesful, worked to an extent deletes from database stays on main U.I.</td>
   </tr>
   <tr>
     <td>Edit Note</td>
+    <td>Interface open to edit the old inserted note</td>
+    <td>Succesfully opened interface and let user edit the old note.</td>
   </tr>
   <tr>
     <td>Refresh</td>
+    <td>Reopens window with all new entries</td>
+    <td>Succesfully reopen and show edited / new entries</td>
   </tr>
   <tr>
     <td>Log Out</td>
+    <td>Change U.I back to login and hide the main U.I</td>
+    <td>Succesfully changed the U.I back to login and hide the main U.I</td>
   </tr>
   <tr>
     <td>GitHub</td>
+    <td>Open up my github page</td>
+    <td>Succesfully opened up my github page</td>
   </tr>
-  <tr>
-    <td></td>
-  </tr>
+
 </table>

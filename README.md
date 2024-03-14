@@ -17,6 +17,7 @@ This will also show my ability to expand of mistakes I make, overcome challenges
   <li>My scripting proficiency</li>
   <li>Problem solving</li>
   <li>Motivation</li>
+  <li>Database Structuring</li>
 </ul>
 
 <h1> Specifications </h1>

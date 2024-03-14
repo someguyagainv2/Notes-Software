@@ -405,3 +405,34 @@ The result
 Pre-warning in this image I had deleted previous elements so the Note ID won't align with current amount.
 ```
 <img src="/images/result.PNG">
+
+```
+14/03/2024 21:30 BST
+Deleting Note's
+
+My idea for deleting note's was pretty simple we can set global variable which is boolean which
+contains true or false if the user is currently deleting or not if they're, when they click at the top of an Note
+it will delete this note from the database I had some hassle with this as I originally didn't know how to clone events over
+but it was as simple as ever the code was as followed for cloning events.
+
+ClonedObject.MouseDown += Function;
+
+This worked perfectly for what I was going through issue is it wouldn't remove from the note's list this is an issue I'll sort
+later on in the write-up.
+
+The SQL Query for deleting notes was as such.
+
+string query = $"DELETE FROM Notes WHERE id={controlName}";
+
+The owner is the controller mentioned here is using argument passed from the function to get object what was pressed name
+as I named the object's after their Note ID this helped me find the note later on and delete it from the database.
+```
+
+```
+14/03/2024 21:56 BST
+Editing Notes
+
+The plan I have thought of to tackle this is by when they click on the element ( Note ) It will then create the form as usual
+then edit the forms content to contain the Note's content when they X I want to make it edit the element if it's in the exists
+list which I mentioned earlier.
+```

@@ -353,3 +353,55 @@ easier, wasn't I wrong after 30minute deep scroll researching I came to the conc
 I tried to take "simplicity" over actual way, I've learnt my lesson from this and now I shall design user control.
 
 ```
+
+```
+14/03/2024
+Finalizing
+
+After re-reading and analysing I figured out that it wasn't as complex as it looked for user control now understand the
+concept of it and it's amazing use cases, it has so many uses it shocked me. After making user control I inserted the template into a flowlayoutpanel
+I then configured the size so it was correctly sized and matched up. Since user may have a lot of note's I needed scrollbar
+my first thought was to use toolbox but that's considered object and got taken effect by the layout panel.
+
+After revising over properties I noticed the AutoScroll this was crucial and was what I needed. Now came the loading of Notes
+I had difficulity here as I wanted to load them in actively without overloading the database with requests. I wanted to make it
+so when user selected that window it would detect it but this wasn't going accordingly so I ended up having to check if mouse was
+hovering main area which had it's issues.. I shall resolve later on.
+
+The way I handled the cloning was by setting up sql connection going through the note's using the global owner ID what I set earlier
+to then use where statement to return only the notes you have. Then I simply cloned the user control editing the properties accordingly
+and set the name to be equal to the ID of the note. The code feel free to roast me.
+
+MySqlConnection conn = new MySqlConnection(connStr);
+conn.Open();
+
+string Query = $"select id, Note from Notes where Owner={Globals.ownerId};";
+MySqlCommand cmd = new MySqlCommand(Query, conn);
+MySqlDataReader reader = cmd.ExecuteReader();
+
+while (reader.Read())
+{
+    if (!currentExists.Contains(reader.GetInt32(0)))
+    {
+        itemNoteList nm = new itemNoteList();
+        nm.Parent = Container;
+        nm.content = $"{reader.GetString(1)}";
+        nm.Visible = true;
+        nm.noteNumber = $"Note: {reader.GetInt32(0)}";
+        nm.Name = $"{reader.GetInt32(0)}";
+        currentExists.Add(reader.GetInt32(0));
+
+        nm.MouseDown += itemNoteList1_MouseDown;
+    }
+    
+}
+
+conn.Close();
+
+to stop any reoccuring one's I used a list by the name of currentExists what stores Integer values inside of which
+element's are being currently displayed on the item list.
+
+The result
+Pre-warning in this image I had deleted previous elements so the Note ID won't align with current amount.
+```
+<img src="/images/result.PNG">

@@ -273,3 +273,31 @@ PRIMARY KEY (id)
 
 I added the NoteTitle just incase I do add in later on.
 ```
+
+```
+14/03/2024 16:40 BST
+Return From Break
+
+After quick break I started doing tests of application so far and realized I forgot to add drag
+mechanic to the main U.I after you login so I went in and added that. The way I plan on saving content
+as my SQL database has restrictions from the host, I shall save the content once they exit the tab.
+
+While writing this I just remebered I needed a Owner column for my table this was due to me rushing the SQL
+Query but using alter table this was easily fixed SQL Query provided below. Initially I tried to use FOREIGN KEY REFERENCES
+but this wasn't allowed on planetscale and returned an error "foreign key constraints are not allowed" this
+isn't huge issue but still a little incovience for proffesionalisim and management.
+
+I initially tried to alter table to add foreign key this didn't work so I dropped the table then tried foreign key
+this didn't work so I just ended up with this end result of an query.
+
+
+create table Notes(
+id INT NOT NULL AUTO_INCREMENT,
+NoteTitle text,
+Note longtext,
+Owner INT,
+PRIMARY KEY (id)
+);
+```
+
+

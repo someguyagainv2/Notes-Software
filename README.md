@@ -485,3 +485,39 @@ string I had to use the convert to make it the same type so we could compare. On
  string query = $"UPDATE Notes SET Note='{Content.Text}' WHERE id={this.idNote}";
 
 Meaning it will check the ID then alter the Note column for said ID and change it to the new edited data.
+```
+
+```
+14/03/2024 23:00 BST
+Finishing Up
+
+Editing Notes, Refreshing Notes, Creating, Deleting Notes was finished, Log Out, Log In.
+```
+
+```
+14/03/2024 23:03 BST
+Removes Features
+
+Settings, Forgot Password
+```
+
+<table>
+  <tr>
+    <th> Test </th>
+    <th> Result </th>
+    <th> Expected Result </th>
+  </tr>
+  <tr>
+    <td>Log In Button</td>
+    <td>Create A Note</td>
+    <td>Drag UI</td>
+    <td>Delete A Note</td>
+    <td>Edit Note</td>
+    <td>Refresh</td>
+    <td>Log Out</td>
+    <td>GitHub</td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>

@@ -319,3 +319,9 @@ The code for the exit button which saves Note
 ```
 
 <img src="images/noteSave.PNG">
+
+```
+
+The database result:
+```
+<img src="images/noteDatabase.PNG">

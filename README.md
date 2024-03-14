@@ -232,3 +232,23 @@ windows if the correct username and password was entered! 22:07 BST.
 
 Break Time
 ```
+```
+14/03/2024 15:14 BST
+Note Handling
+
+It was time for me to start working on main aspect the making of notes so I started working on U.I
+for the Note's I didn't want it to small or too big. As I want it to be content of notes not to be
+fully in depth but more as small notes to remind yourself of stuff. I wanted to make the Note's U.I
+Sizable but when you pick that I cannot use my custom top bar and X button there's potentially way
+to solve this small issue but I'll save that for another time.
+
+The making of form U.I Was substansially quicker than when we first started as I now understood
+how positioning and sizing worked as before I had issues with items being invisible. This came
+down to me not dragging U.I so item wasn't visible cause I didn't select it on I believe as
+that's why this issue occured on my end this was thought of the bat but I was able to handle it.
+
+I then programmed up the defaults the draggable form, minimize button, exit button. Now what was left
+was programming the notes to save etc. And then I came to conclusion my old way of handling the notes
+probably wouldn't work on my database below is attachment of the database.
+```
+<img src="images/Database1.PNG">

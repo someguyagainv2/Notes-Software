@@ -436,3 +436,52 @@ The plan I have thought of to tackle this is by when they click on the element (
 then edit the forms content to contain the Note's content when they X I want to make it edit the element if it's in the exists
 list which I mentioned earlier.
 ```
+
+```
+14/03/2024 22:48 BST
+Programming
+
+I started the programming of editing notes I was able to implement this by making some new properties for the Note Form
+as editing the Note form from 2nd Form was out of the question. So using the code what I made below I was able to designate
+a property for Content Box and Note ID hidden property which is then used to identify and see if we're editing or creating
+a new note.
+
+#region Property
+private string _content;
+private string _idNote;
+
+[Category("Data")]
+public string content
+{
+    get { return _content; }
+    set { _content = value; Content.Text = value; }
+}
+
+       
+
+[Category("Data")]
+public string idNote
+{
+    get { return _idNote; }
+    set { _idNote = value; }
+}
+
+#endregion
+
+After this all I had to do was when user clicked on a note on Main Frame I checked if it was in either delete mode or
+wasn't if it wasn't then we know the user want's to edit it. With this information I then made it edit those properties to contain
+the ID and Content. As the property set earlier for content also changes textbox we didn't have to worry about that aspect.
+
+The bigger challenge came the exit button I reprogrammed it to detect if the ID it had was in existing list which meant I had to change
+local existing list to an global variable. While testing stuff I noticed when we use this.Hide(); on main UI it got rid of the list this
+helped me make huge revamp to how I work things after messing with event's I realized the "activated" event detected when the user reopens the U.I
+through a this.show(); as an example. So I made refresh button which would just hide the frame to then reshow it and the activated would run the code
+to go through the SQL and add note's this meant we had fully working reload system.
+
+Now back to editing system, this was the condition I made
+ if (Globals.existing.Contains(Convert.ToInt32(this.idNote)) && !Content.Text.Contains("'")) // note does exist. since the list was an INT and the id was
+string I had to use the convert to make it the same type so we could compare. Once this condition is checked it will run the following.
+
+ string query = $"UPDATE Notes SET Note='{Content.Text}' WHERE id={this.idNote}";
+
+Meaning it will check the ID then alter the Note column for said ID and change it to the new edited data.

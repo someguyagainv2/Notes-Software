@@ -549,3 +549,10 @@ Settings, Forgot Password
   </tr>
 
 </table>
+
+<h1> Release </h1>
+I only released it for anyone wanting to try end product as of right now there's no main use for this Note's software and it needs way more work on. This will keep being updated over time but not as actively. The main build is done and I'll keep coming back to this to add on and on until the final product is officially done.
+
+If anyone want's to keep the database up as it closes on April 8th 2024 due to shutting of hobby plan contain me on GitHub or through discord at <b>crackpotparty</b>
+
+You can download the software <a href="/Releases/NotesSoftware2.exe">Here</a>

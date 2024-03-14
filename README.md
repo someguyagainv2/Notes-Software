@@ -9,6 +9,8 @@ I started working on this project on 12/03/2024 (DD/MM/YEAR) I started this proj
 
 I made this repo and this software to show proof of knowledge and where motivation can take you in terms of things, I also want to show this to my college tutors as programming is huge passion of mine and want to show that <b> I truly care </b> there's many people which will do a course for the sake of a degree what they can throw down on a CV but I want this to show effort I'm willing to put in to master the skill's I have worked on fondly for 7 Years. I don't have the best vocabulary or grammar skills so some of this will be poorly worded and I'm fully accepting of this and want to use this as working off point to become better at write-up's and other skills such as software development.
 
+This will also show my ability to expand of mistakes I make, overcome challenges I do not understand while also progressing into new knowledge on C#. As in programming the way to go is through trial and error until we reach our final goal.
+
 <h1> Skills I Wish To Develop </h1>
 
 <ul>
@@ -184,7 +186,7 @@ I installed the package to then continue on and insert this into my code.
 
 The code wasn't appearing to be working I was using the SqlConnectionStringBuilder to make connection
 string using information I provided but when I went to connect it wasn't working so I'm take a break to
-take a seperate approach to the situation at hand and think it out.```
+take a seperate approach to the situation at hand and think it out.
 
 ```
 ```

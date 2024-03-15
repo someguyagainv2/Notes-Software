@@ -553,6 +553,27 @@ Settings, Forgot Password
 <h1> Release </h1>
 I only released it for anyone wanting to try end product as of right now there's no main use for this Note's software and it needs way more work on. This will keep being updated over time but not as actively. The main build is done and I'll keep coming back to this to add on and on until the final product is officially done.
 
+<h1>Update Timeline After Release</h1>
+
+```
+15/03/2024 00:07 BST
+Logic Errors
+
+I noticed that the hide didn't get rid of controls as I thought and this changed a lot so after some research
+I quickly changed the code to
+
+foreach (Control control in Container.Controls.OfType<itemNoteList>().ToArray())
+{
+    Container.Controls.Remove(control);
+}
+
+Clear the controls for it beforehand then clear the list and run the query this does cause little loading aspect
+but in end it works better than before which was key goal for this.
+
+I will fix it later releases for now I need a break
+```
+
+<h1> Help </h1>
 If anyone want's to keep the database up as it closes on April 8th 2024 due to shutting of hobby plan contain me on GitHub or through discord at <b>crackpotparty</b>
 
 You can download the software <a href="https://github.com/MalakiaDaley/Notes-Software/releases/tag/Release">Here</a>

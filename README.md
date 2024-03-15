@@ -585,6 +585,7 @@ the upgrade assistant to upgrade all assets to version 8.
 After that I used the clickonce option on the publish then I got my final exe which ended with .deploy I removed the
 .deploy tested it and to my supruise it worked. I then tested various logins for it on seperate computer these all worked
 perfectly.
+```
 
 <h1> Help </h1>
 If anyone want's to keep the database up as it closes on April 8th 2024 due to shutting of hobby plan contain me on GitHub or through discord at <b>crackpotparty</b>

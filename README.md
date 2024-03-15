@@ -588,6 +588,6 @@ perfectly.
 ```
 
 <h1> Help </h1>
-If anyone want's to keep the database up as it closes on April 8th 2024 due to shutting of hobby plan contain me on GitHub or through discord at <b>crackpotparty</b>
+If anyone want's to keep the database up as it closes on April 8th 2024 due to shutting of hobby plan contact me on GitHub or through discord at <b>crackpotparty</b>
 
 You can download the software <a href="https://github.com/MalakiaDaley/Notes-Software/releases/tag/1.0.1">Here</a>

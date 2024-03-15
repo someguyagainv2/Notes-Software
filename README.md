@@ -572,6 +572,19 @@ but in end it works better than before which was key goal for this.
 
 I will fix it later releases for now I need a break
 ```
+```
+15/03/2024 15:44 BST
+Publishing
+
+Once I published I noticed the fact that exe didn't work on seperate devices I came to realize this was because I needed to add all the requirements
+all the namespaces I used, I didn't want overly big file so I wanted to make it all into one exe, after lots of effort I couldn't
+fix the issue for while trying to understand it then I realized I had been under impression I was running .NET Version 8
+This was wrong I was running version 4 which didn't support 1 file portable. I fixed this issue by using
+the upgrade assistant to upgrade all assets to version 8.
+
+After that I used the clickonce option on the publish then I got my final exe which ended with .deploy I removed the
+.deploy tested it and to my supruise it worked. I then tested various logins for it on seperate computer these all worked
+perfectly.
 
 <h1> Help </h1>
 If anyone want's to keep the database up as it closes on April 8th 2024 due to shutting of hobby plan contain me on GitHub or through discord at <b>crackpotparty</b>
